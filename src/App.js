@@ -4,6 +4,7 @@ import { HomePage } from "./pages/HomePage";
 import { Offer } from "./pages/Offer";
 import { Porftolio } from "./pages/Portfolio";
 import { Contact } from "./pages/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/portfolio" element={<Porftolio />} />
         <Route path="/kontakt" element={<Contact />} />
     </Routes>
+    <Footer />
     </>
   );
 }
