@@ -1,6 +1,6 @@
 export const Offer = () => {
     return(
-    <div classNameName="offer">
+        <>
         <div className="offer-container">
             <div className="offer-box">
                 <h2 className="offer-header">Architektura</h2>
@@ -46,24 +46,27 @@ export const Offer = () => {
             </div>
         </div>
         <div>
-            <h1 className="text-center">Jak wygląda współpraca?</h1>
+            <h1 className="coop-header">Jak wygląda współpraca?</h1>
             <div className="coop-container">
                 <div className="box">
                     <h2 className="offer-header">Nagłówek 1</h2>
                     <p className="offer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, reprehenderit.</p>
                 </div>
                 <div className="box">
-                    <h2>Nagłówek 2</h2>
+                    <h2 className="offer-header">Nagłówek 2</h2>
                     <p className="offer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nemo nihil minima, dolor doloremque incidunt non exercitationem tenetur eveniet cum!</p>
                 </div>
                 <div className="box">
-                    <h2>Nagłówek 3</h2>
+                    <h2 className="offer-header">Nagłówek 3</h2>
                     <p className="offer-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem porro numquam quaerat doloribus vero possimus, nostrum adipisci.</p>
                 </div>
             </div>
             <h1 className="text-center">...dodatkowo</h1>
+            <div className="additional-box">
+                    <h2 className="offer-header">Nagłówek 3</h2>
+                    <p className="offer-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem porro numquam quaerat doloribus vero possimus, nostrum adipisci.</p>
+                </div>
         </div>
-        
-    </div>
+        </>
     )
 }
