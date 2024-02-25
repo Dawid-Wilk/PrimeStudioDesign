@@ -7,14 +7,14 @@ export const Porftolio = () => {
             <div className="portfolio-container">
                 <div className="portfolio-image-container">
                     <Link to={"/"}>
-                        <img className="image-container-img" src="./images/gory.jpeg" alt="Obraz 1" />
-                        <p className="image-container-description">Tekst na obrazie 1</p>
+                        <img className="image-container-img" src="./images/wnetrze.jpg" alt="Projekty wnętrz" />
+                        <p className="image-container-description">Projekty wnętrz</p>
                     </Link>
                 </div>
                 <div className="portfolio-image-container">
                     <Link to={"/"}>
                         <img className="image-container-img" src="./images/gory.jpeg" alt="Obraz 2" />
-                        <p className="image-container-description">Tekst na obrazie 2</p>
+                        <p className="image-container-description">Architektura</p>
                     </Link>
                 </div>
             </div>
